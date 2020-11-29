@@ -1,0 +1,65 @@
+//HEADER_GOES_HERE
+#ifndef __DIABLOUI_H__
+#define __DIABLOUI_H__
+
+#ifdef __GNUC__
+extern "C" {
+#endif
+
+struct FontStruct
+{
+	unsigned char fontbin[258];
+	HANDLE fonttrans[256];
+	BOOL active;
+};
+
+struct ProfileStruct
+{
+	char *name;
+	char field_4;
+	int msg;
+	int field_C;
+};
+
+struct ProfFntStruct
+{
+	int size;
+	char *fontname;
+	int field_8;
+};
+
+void __stdcall UiDestroy();
+BOOL __stdcall UiTitleDialog(int a1);
+void __stdcall UiInitialize();
+BOOL __stdcall UiCopyProtError(int *pdwResult);
+void __stdcall UiAppActivate(BOOL bActive);
+BOOL __fastcall UiValidPlayerName(char *name); /* check __stdcall */
+BOOL __stdcall UiSelHeroMultDialog(BOOL (__stdcall *fninfo)(BOOL (__stdcall *fninfofunc)(_uiheroinfo *)), BOOL (__stdcall *fncreate)(_uiheroinfo *), BOOL (__stdcall *fnremove)(_uiheroinfo *), BOOL (__stdcall *fnstats)(int, _uidefaultstats *), int *dlgresult, int *a6, char *name);
+BOOL __stdcall UiSelHeroSingDialog(BOOL (__stdcall *fninfo)(BOOL (__stdcall *fninfofunc)(_uiheroinfo *)), BOOL (__stdcall *fncreate)(_uiheroinfo *), BOOL (__stdcall *fnremove)(_uiheroinfo *), BOOL (__stdcall *fnstats)(int, _uidefaultstats *), int *dlgresult, char *name, int *difficulty);
+BOOL __stdcall UiCreditsDialog(int a1);
+BOOL __stdcall UiMainMenuDialog(char *name, int *pdwResult, void (__stdcall *fnSound)(const char *file), int a4);
+int __stdcall UiProgressDialog(HWND window, char *msg, int a3, void *fnfunc, int a5);
+int __stdcall UiProfileGetString();
+void __stdcall UiProfileCallback();
+void __stdcall UiProfileDraw();
+BOOL __stdcall UiCategoryCallback(int a1, int a2, int a3, int a4, int a5, _DWORD *a6, _DWORD *a7);
+BOOL __stdcall UiGetDataCallback(int game_type, int data_code, void *a3, int a4, int a5);
+BOOL __stdcall UiAuthCallback(int a1, char *a2, char *a3, char a4, char *a5, LPSTR lpBuffer, int cchBufferMax);
+BOOL __stdcall UiSoundCallback(int a1, int type, int a3);
+void __stdcall UiMessageBoxCallback(HWND hWnd, char *lpText, LPCSTR lpCaption, UINT uType);
+BOOL __stdcall UiDrawDescCallback(int arg0, COLORREF color, LPCSTR lpString, char *a4, int a5, UINT align, time_t a7, HDC *a8);
+BOOL __stdcall UiCreateGameCallback(int a1, int a2, int a3, int a4, int a5, int a6);
+BOOL __stdcall UiArtCallback(int game_type, unsigned int art_code, PALETTEENTRY *pPalette, void *pBuffer, DWORD dwBuffersize, DWORD *pdwWidth, DWORD *pdwHeight, DWORD *pdwBpp);
+int __stdcall UiSelectGame(int a1, _SNETPROGRAMDATA *client_info, _SNETPLAYERDATA *user_info, _SNETUIDATA *ui_info, _SNETVERSIONDATA *file_info, DWORD *a6);
+int __stdcall UiSelectProvider(int a1, _SNETPROGRAMDATA *client_info, _SNETPLAYERDATA *user_info, _SNETUIDATA *ui_info, _SNETVERSIONDATA *file_info, DWORD *type);
+BOOL __stdcall UiCreatePlayerDescription(_uiheroinfo *info, int mode, char *desc);
+void __stdcall UiSetupPlayerInfo(char *infostr, _uiheroinfo *pInfo, int type);
+void __stdcall UiCreateGameCriteria(_uiheroinfo *pInfo, char *str);
+BOOL __stdcall UiGetDefaultStats(int pclass, _uidefaultstats *pStats);
+BOOL __stdcall UiBetaDisclaimer(int a1);
+
+#ifdef __GNUC__
+}
+#endif
+
+#endif /* __DIABLOUI_H__ */
