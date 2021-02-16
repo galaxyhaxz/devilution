@@ -1,3 +1,5 @@
+## Devilution is deprecated. I have a new upcoming Diablo project in the works. Stay tuned!
+
 The beginning and end of Devilution - Diablo reverse engineered
 
 I've decided to release the very first version of Devilution alongside the last. This is for all those of you out there that think reversing takes no time at all.
