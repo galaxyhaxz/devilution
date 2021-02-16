@@ -1,8 +1,8 @@
 ## Devilution is deprecated. I have another Diablo project in the works so stay tuned!
 
-[Official Devilution](https://github.com/diasurgical/devilution)
+Official: [Devilution](https://github.com/diasurgical/devilution) | [DevilutionX](https://github.com/diasurgical/devilutionx)
 
-I've decided to release the very first version of Devilution alongside the last. This is for all those of you out there that think reversing takes no time at all.
+Here you will find the first version of Devilution along with a new rewrite. This will showcase the amount of work it took to reverse engineer and complete the source.
 
 The first version [2018_03_14](2018_03_14) was a raw dump from IDA that had thousands of errors fixed before it finally compiled. Executable immediately crashes when ran.
 
