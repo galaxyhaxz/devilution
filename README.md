@@ -1,4 +1,4 @@
-## Devilution is deprecated. I have a new upcoming Diablo project in the works. Stay tuned!
+## Devilution is deprecated. I have another Diablo project in the works. Stay tuned!
 
 The beginning and end of Devilution - Diablo reverse engineered
 
