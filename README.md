@@ -1,3 +1,5 @@
+# If you like my work, help me find a job in IT! Thanks!
+
 ## Devilution is deprecated. I have another Diablo project in the works so stay tuned!
 
 Official: [Devilution](https://github.com/diasurgical/devilution) | [DevilutionX](https://github.com/diasurgical/devilutionx)
