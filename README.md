@@ -1,4 +1,4 @@
-## Devilution is finished stay tuned for an upcoming project!
+## Devilution is finished, please stay tuned for Stjärnstoft (my upcoming Diablo project)!
 
 Official: [Devilution](https://github.com/diasurgical/devilution) | [DevilutionX](https://github.com/diasurgical/devilutionx)
 
