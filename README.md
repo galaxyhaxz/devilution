@@ -1,4 +1,4 @@
-# Note: if you like my work, put in a word for me at your company to help me get a job in tech!
+# Note: if you like my work, I'm in need of a job!
 
 ## Devilution is finished, please stay tuned for Stjärnstoft (my upcoming Diablo project)!
 
