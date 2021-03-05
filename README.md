@@ -1,5 +1,3 @@
-# Note: if you like my work, I'm in need of a job!
-
 ## Devilution is finished, please stay tuned for Stjärnstoft (my upcoming Diablo project)!
 
 Official: [Devilution](https://github.com/diasurgical/devilution) | [DevilutionX](https://github.com/diasurgical/devilutionx)
