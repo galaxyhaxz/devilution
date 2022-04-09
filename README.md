@@ -1,3 +1,7 @@
+## Notice
+
+### I've been hard at work for two years revamping Diablo from the ground up to bring you the most sinister creation yet. Stay tuned for the public release >;)
+
 ## About
 
 Official: [Devilution](https://github.com/diasurgical/devilution) | [DevilutionX](https://github.com/diasurgical/devilutionx)
